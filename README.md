@@ -46,7 +46,7 @@
 # 🤝 Organization
 <div align="center">
 
-[![adofaiex](https://img.shields.io/badge/%40adofaiex-Member-c084fc?style=flat-square&logo=github&logoColor=white&labelColor=1a0533)](https://github.com/adofaiex)
+[![adofaiex](https://img.shields.io/badge/%40adofaiex-Member-c084fc?style=flat&logo=github&logoColor=white&labelColor=1a0533)](https://github.com/adofaiex)
 
 </div>
 
