@@ -47,7 +47,7 @@
 | [ADOFAI_MOBILE_MODS](https://github.com/2228293026/ADOFAI_MOBILE_MODS) *(archived)* | — | `C++` | ⭐ 1 | 🍴 0 |
 | [InputSystem](https://github.com/2228293026/InputSystem) | 轻量级的模拟按键API | `C++` | ⭐ 1 | 🍴 0 |
 | [JipperOverlayer](https://github.com/2228293026/JipperOverlayer) | JipperOverlayer ADOFAI overlay mod | `C#` | ⭐ 1 | 🍴 0 |
-| [2228293026](https://github.com/2228293026/2228293026) | — | `—` | ⭐ 0 | 🍴 0 |
+| [2228293026](https://github.com/2228293026/2228293026) | — | `Python` | ⭐ 0 | 🍴 0 |
 | [A-Dance-of-Fire-and-Ice-Mobile---Load-Custom-Level](https://github.com/2228293026/A-Dance-of-Fire-and-Ice-Mobile---Load-Custom-Level) | Load Custom Level | `C++` | ⭐ 0 | 🍴 0 |
 | [Autoplay-Color-Change](https://github.com/2228293026/Autoplay-Color-Change) *(archived)* | ADOFAI, Change autoplay color | `—` | ⭐ 0 | 🍴 0 |
 | [AutoplayHit](https://github.com/2228293026/AutoplayHit) *(archived)* | — | `C#` | ⭐ 0 | 🍴 0 |
@@ -77,6 +77,7 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-555555?style=for-the-badge)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
