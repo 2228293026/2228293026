@@ -15,10 +15,7 @@
 # 🛠 IDE & Tools
 <div align="center">
 
-![Rider](https://img.shields.io/badge/Rider-512BD4?style=for-the-badge&logo=rider&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
-![CLion](https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+[![My Skills](https://skillicons.dev/icons?i=rider,visualstudio,clion,git&theme=dark&perline=4)](https://skillicons.dev)
 
 </div>
 
