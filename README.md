@@ -12,24 +12,13 @@
 
 ---
 
-# 💻ㅣLanguage
-<!-- LANG_BADGES_START -->
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=for-the-badge&logo=rust&logoColor=white)
-<!-- LANG_BADGES_END -->
-
-# 🛠ㅣIDE & Tools
+# 🛠 IDE & Tools
 ![Rider](https://img.shields.io/badge/Rider-512BD4?style=for-the-badge&logo=rider&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
 ![CLion](https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-# 📊ㅣStatus
+# 📊 Status
 ![Top Langs](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=2228293026&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&langs_count=8)
 ![GitHub stats](https://github-readme-stats-one-bice.vercel.app/api?username=2228293026&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3&include_all_commits=true&count_private=true)
 
