@@ -54,7 +54,7 @@
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=2228293026&color=c084fc&style=flat-square&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=2228293026&color=c084fc&style=flat&label=Profile+Views)
 
 </div>
 
