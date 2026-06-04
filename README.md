@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=2228293026)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=2228293026&langs_count=6&card_width=320&theme=transparent&locale=cn&hide_border=true&layout=compact)
 
 <!--
 **2228293026/2228293026** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
