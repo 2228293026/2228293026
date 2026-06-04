@@ -2,8 +2,8 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # every day at 00:00 UTC
-  workflow_dispatch:        # allow manual trigger from Actions tab
+    - cron: "0 0 * * *"   # 每天 UTC 00:00 运行
+  workflow_dispatch:        # 支持手动触发
   push:
     branches: [main, master]
     paths:
@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --cached --quiet || git commit -m "chore: auto-update README [skip ci]"
