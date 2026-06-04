@@ -13,29 +13,51 @@
 ---
 
 # 🛠 IDE & Tools
+<div align="center">
+
 ![Rider](https://img.shields.io/badge/Rider-512BD4?style=for-the-badge&logo=rider&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
 ![CLion](https://img.shields.io/badge/CLion-000000?style=for-the-badge&logo=clion&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
+</div>
+
+---
+
 # 📊 Status
-![Top Langs](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=2228293026&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&langs_count=8)
-![GitHub stats](https://github-readme-stats-one-bice.vercel.app/api?username=2228293026&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3&include_all_commits=true&count_private=true)
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=2228293026&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&langs_count=8" />
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats-one-bice.vercel.app/api?username=2228293026&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3&include_all_commits=true&count_private=true" />
+    </td>
+  </tr>
+</table>
+
+<div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=2228293026&theme=midnight-purple&hide_border=true&background=0d0d18&stroke=2d1b69&ring=c084fc&fire=f59e0b&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=6b7280)](https://git.io/streak-stats)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=2228293026/Il2Cpp_Dumper,2228293026/BaseMacro,2228293026/JipperKeyViewer,2228293026/TemplateModMenu,2228293026/ShowBPM-Fix,2228293026/AdofaiTweaks&type=Date&theme=dark)](https://github.com/2228293026?tab=repositories)
 
-# 🤝ㅣOrganization
+</div>
+
+---
+
+# 🤝 Organization
+<div align="center">
+
 [![adofaiex](https://img.shields.io/badge/%40adofaiex-Member-c084fc?style=for-the-badge&logo=github&logoColor=white&labelColor=1a0533)](https://github.com/adofaiex)
+
+</div>
 
 ---
 
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=2228293026&color=c084fc&style=flat-square&label=Profile+Views)
-
-*Last updated: 2026-06-05 00:00 UTC*
 
 </div>
 
