@@ -30,8 +30,8 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 # 📊ㅣStatus
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=2228293026&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&langs_count=8)
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=2228293026&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3&include_all_commits=true&count_private=true)
+![Top Langs](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=2228293026&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&langs_count=8)
+![GitHub stats](https://github-readme-stats-one-bice.vercel.app/api?username=2228293026&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3&include_all_commits=true&count_private=true)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=2228293026&theme=midnight-purple&hide_border=true&background=0d0d18&stroke=2d1b69&ring=c084fc&fire=f59e0b&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=6b7280)](https://git.io/streak-stats)
 
