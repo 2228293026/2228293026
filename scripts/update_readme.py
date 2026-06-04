@@ -1,35 +1,26 @@
 #!/usr/bin/env python3
-"""
-update_readme.py
-Fetches all public repos for USERNAME via GitHub API,
-sorts by stargazers, injects a Markdown table and language badges into README.md.
-"""
-
-import os
-import re
-import json
-import urllib.request
+import os, re, json, urllib.request
 from datetime import datetime, timezone
 
 USERNAME = "2228293026"
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "README.md")
 
-# Map GitHub language names → shields.io badge params
 LANG_BADGE = {
-    "C#":         ("C%23",       "239120", "csharp"),
-    "C++":        ("C%2B%2B",    "00599C", "cplusplus"),
-    "Java":       ("Java",       "ED8B00", "openjdk"),
-    "Python":     ("Python",     "3776AB", "python"),
-    "JavaScript": ("JavaScript", "F7DF1E", "javascript"),
-    "TypeScript": ("TypeScript", "3178C6", "typescript"),
-    "Kotlin":     ("Kotlin",     "7F52FF", "kotlin"),
-    "Rust":       ("Rust",       "000000", "rust"),
-    "Go":         ("Go",         "00ADD8", "go"),
-    "Ruby":       ("Ruby",       "CC342D", "ruby"),
-    "Swift":      ("Swift",      "FA7343", "swift"),
-    "Dart":       ("Dart",       "0175C2", "dart"),
-    "Lua":        ("Lua",        "2C2D72", "lua"),
-    "Shell":      ("Shell",      "4EAA25", "gnubash"),
+    "C#":         ("Csharp",      "csharp"),
+    "C++":        ("C%2B%2B",     "cplusplus"),
+    "C":          ("C",           "c"),
+    "Java":       ("Java",        "openjdk"),
+    "TypeScript": ("TypeScript",  "typescript"),
+    "JavaScript": ("JavaScript",  "javascript"),
+    "Python":     ("Python",      "python"),
+    "Kotlin":     ("Kotlin",      "kotlin"),
+    "Rust":       ("Rust",        "rust"),
+    "Go":         ("Go",          "go"),
+    "Lua":        ("Lua",         "lua"),
+    "Shell":      ("Shell",       "gnubash"),
+    "Ruby":       ("Ruby",        "ruby"),
+    "Swift":      ("Swift",       "swift"),
+    "Dart":       ("Dart",        "dart"),
 }
 
 HEADERS = {
@@ -37,116 +28,74 @@ HEADERS = {
     "X-GitHub-Api-Version": "2022-11-28",
     "User-Agent": "readme-updater",
 }
-
 token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 if token:
     HEADERS["Authorization"] = f"Bearer {token}"
 
-
-def gh_get(url: str) -> list | dict:
+def gh_get(url):
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read().decode())
+    with urllib.request.urlopen(req) as r:
+        return json.loads(r.read().decode())
 
-
-def fetch_all_repos() -> list[dict]:
+def fetch_all_repos():
     repos, page = [], 1
     while True:
-        url = (
-            f"https://api.github.com/users/{USERNAME}/repos"
-            f"?per_page=100&page={page}&type=public"
-        )
-        batch = gh_get(url)
-        if not batch:
-            break
+        batch = gh_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type=public")
+        if not batch: break
         repos.extend(batch)
         page += 1
     return repos
 
-
-def build_repo_table(repos: list[dict]) -> str:
-    # Sort by stars desc, then name asc
-    sorted_repos = sorted(repos, key=lambda r: (-r["stargazers_count"], r["name"]))
-
-    lines = [
-        "| Repository | Description | Language | Stars | Forks |",
-        "|:-----------|:------------|:--------:|:-----:|:-----:|",
-    ]
-    for r in sorted_repos:
-        name     = r["name"]
-        url      = r["html_url"]
-        desc     = (r["description"] or "—").replace("|", "\\|")
-        lang     = r["language"] or "—"
-        stars    = r["stargazers_count"]
-        forks    = r["forks_count"]
-        archived = " *(archived)*" if r.get("archived") else ""
-        lines.append(
-            f"| [{name}]({url}){archived} | {desc} | `{lang}` | ⭐ {stars} | 🍴 {forks} |"
-        )
-    return "\n".join(lines)
-
-
-def build_lang_badges(repos: list[dict]) -> str:
-    # Count bytes per language across all repos that expose it
-    lang_counts: dict[str, int] = {}
+def build_lang_badges(repos):
+    counts = {}
     for r in repos:
         if r.get("language"):
-            lang_counts[r["language"]] = lang_counts.get(r["language"], 0) + 1
-
-    # Sort by frequency
-    sorted_langs = sorted(lang_counts, key=lambda l: -lang_counts[l])
-
-    badges = []
-    for lang in sorted_langs:
+            counts[r["language"]] = counts.get(r["language"], 0) + 1
+    lines = []
+    for lang in sorted(counts, key=lambda l: -counts[l]):
         if lang in LANG_BADGE:
-            label, color, logo = LANG_BADGE[lang]
-            badge = (
-                f"![{lang}](https://img.shields.io/badge/{label}-{color}"
-                f"?style=for-the-badge&logo={logo}&logoColor=white)"
-            )
+            label, logo = LANG_BADGE[lang]
+            lines.append(f"![{lang}](https://img.shields.io/badge/{label}-c9c8e4.svg?&style=for-the-badge&logo={logo}&logoColor=4200a0)")
         else:
-            # Fallback: plain badge without logo
             label = lang.replace(" ", "%20").replace("#", "%23").replace("+", "%2B")
-            badge = (
-                f"![{lang}](https://img.shields.io/badge/{label}-555555"
-                f"?style=for-the-badge)"
-            )
-        badges.append(badge)
+            lines.append(f"![{lang}](https://img.shields.io/badge/{label}-c9c8e4.svg?&style=for-the-badge)")
+    return "\n".join(lines)
 
-    return "\n".join(
-        ["<div align=\"center\">", ""]
-        + badges
-        + ["", "</div>"]
-    )
+def build_repo_badges(repos):
+    sorted_repos = sorted(repos, key=lambda r: (-r["stargazers_count"], r["name"]))
+    # skip the profile repo itself
+    sorted_repos = [r for r in sorted_repos if r["name"] != USERNAME]
+    lines = []
+    for r in sorted_repos:
+        name   = r["name"]
+        url    = r["html_url"]
+        stars  = r["stargazers_count"]
+        label  = name.replace("-", "--").replace("_", "__").replace(" ", "%20")
+        star_str = f"⭐%20{stars}" if stars > 0 else "⭐%200"
+        badge  = f"[![{name}](https://img.shields.io/badge/{label}-{star_str}-c9c8e4?style=for-the-badge&logoColor=4200a0)]({url})"
+        lines.append(badge)
+    return "\n".join(lines)
 
-
-def inject(content: str, marker: str, replacement: str) -> str:
+def inject(content, marker, replacement):
     pattern = rf"(<!-- {marker}_START -->).*?(<!-- {marker}_END -->)"
-    repl = rf"\1\n{replacement}\n\2"
-    return re.sub(pattern, repl, content, flags=re.DOTALL)
-
+    return re.sub(pattern, rf"\1\n{replacement}\n\2", content, flags=re.DOTALL)
 
 def main():
     print(f"Fetching repos for {USERNAME}...")
     repos = fetch_all_repos()
-    print(f"  {len(repos)} public repos found.")
-
-    table  = build_repo_table(repos)
-    badges = build_lang_badges(repos)
-    now    = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    print(f"  {len(repos)} repos found.")
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
-    content = inject(content, "REPO_TABLE",    table)
-    content = inject(content, "LANG_BADGES",   badges)
+    content = inject(content, "LANG_BADGES", build_lang_badges(repos))
+    content = inject(content, "REPO_BADGES", build_repo_badges(repos))
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     content = content.replace("<!-- LAST_UPDATED -->", now)
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
-
-    print(f"  README updated at {now}.")
-
+    print(f"  Done. Updated at {now}.")
 
 if __name__ == "__main__":
     main()
