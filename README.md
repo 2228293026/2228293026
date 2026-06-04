@@ -18,6 +18,7 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-CE422B?style=for-the-badge&logo=rust&logoColor=white)
 <!-- LANG_BADGES_END -->
@@ -49,6 +50,7 @@
 [![InputSystem](https://img.shields.io/badge/InputSystem-⭐%201-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/InputSystem)
 [![JipperOverlayer](https://img.shields.io/badge/JipperOverlayer-⭐%201-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/JipperOverlayer)
 [![A-Dance-of-Fire-and-Ice-Mobile---Load-Custom-Level](https://img.shields.io/badge/A--Dance--of--Fire--and--Ice--Mobile------Load--Custom--Level-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/A-Dance-of-Fire-and-Ice-Mobile---Load-Custom-Level)
+[![Autoplay-Color-Change](https://img.shields.io/badge/Autoplay--Color--Change-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/Autoplay-Color-Change)
 [![AutoplayHit](https://img.shields.io/badge/AutoplayHit-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/AutoplayHit)
 [![DifficultyUIMode](https://img.shields.io/badge/DifficultyUIMode-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/DifficultyUIMode)
 [![EditorToCustomWorld](https://img.shields.io/badge/EditorToCustomWorld-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/EditorToCustomWorld)
