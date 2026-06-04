@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-import os, re, json, urllib.request
+import os
+import re
+import json
+import urllib.request
 from datetime import datetime, timezone
 
 USERNAME = "2228293026"
 README_PATH = os.path.join(os.path.dirname(__file__), "..", "README.md")
 
+# 语言徽章映射（标签, logo）
 LANG_BADGE = {
     "C#":         ("Csharp",      "csharp"),
     "C++":        ("C%2B%2B",     "cplusplus"),
@@ -41,55 +45,84 @@ def fetch_all_repos():
     repos, page = [], 1
     while True:
         batch = gh_get(f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type=public")
-        if not batch: break
+        if not batch:
+            break
         repos.extend(batch)
         page += 1
     return repos
 
 def build_lang_badges(repos):
+    """生成语言徽章（按使用次数排序）"""
     counts = {}
     for r in repos:
-        if r.get("language"):
-            counts[r["language"]] = counts.get(r["language"], 0) + 1
+        lang = r.get("language")
+        if lang:
+            counts[lang] = counts.get(lang, 0) + 1
     lines = []
     for lang in sorted(counts, key=lambda l: -counts[l]):
         if lang in LANG_BADGE:
             label, logo = LANG_BADGE[lang]
             lines.append(f"![{lang}](https://img.shields.io/badge/{label}-c9c8e4.svg?&style=for-the-badge&logo={logo}&logoColor=4200a0)")
         else:
-            label = lang.replace(" ", "%20").replace("#", "%23").replace("+", "%2B")
-            lines.append(f"![{lang}](https://img.shields.io/badge/{label}-c9c8e4.svg?&style=for-the-badge)")
+            # 未知语言，只显示名称
+            safe_label = lang.replace(" ", "%20").replace("#", "%23").replace("+", "%2B")
+            lines.append(f"![{lang}](https://img.shields.io/badge/{safe_label}-c9c8e4.svg?&style=for-the-badge)")
     return "\n".join(lines)
 
-def build_repo_badges(repos):
-    sorted_repos = sorted(repos, key=lambda r: (-r["stargazers_count"], r["name"]))
-    # skip the profile repo itself
-    sorted_repos = [r for r in sorted_repos if r["name"] != USERNAME]
+def build_repo_cards(repos):
+    """
+    生成项目卡片（两列布局），按 star 降序排序，跳过同名仓库。
+    使用 github-readme-stats 的 pin 接口。
+    """
+    # 过滤掉个人主页仓库
+    filtered = [r for r in repos if r["name"] != USERNAME]
+    # 按 star 数量降序
+    sorted_repos = sorted(filtered, key=lambda r: (-r["stargazers_count"], r["name"]))
+    
+    cards = []
+    for repo in sorted_repos:
+        name = repo["name"]
+        # 描述可能为 None
+        description = repo.get("description") or ""
+        # 转义 & 等字符
+        desc_encoded = description.replace("&", "&amp;").replace("#", "%23")
+        # 卡片链接参数
+        base_url = "https://github-readme-stats.vercel.app/api/pin/"
+        params = (
+            f"?username={USERNAME}&repo={name}"
+            f"&theme=midnight-purple&hide_border=true"
+            f"&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3"
+            f"&description={desc_encoded}"
+        )
+        card_img = f"{base_url}{params}"
+        # 使用 Markdown 图片链接，点击跳转到仓库
+        cards.append(f'<a href="{repo["html_url"]}"><img src="{card_img}" width="49%" /></a>')
+    
+    # 将卡片分成两列：每两个一组，放在同一行
     lines = []
-    for r in sorted_repos:
-        name   = r["name"]
-        url    = r["html_url"]
-        stars  = r["stargazers_count"]
-        label  = name.replace("-", "--").replace("_", "__").replace(" ", "%20")
-        star_str = f"⭐%20{stars}" if stars > 0 else "⭐%200"
-        badge  = f"[![{name}](https://img.shields.io/badge/{label}-{star_str}-c9c8e4?style=for-the-badge&logoColor=4200a0)]({url})"
-        lines.append(badge)
+    for i in range(0, len(cards), 2):
+        row = cards[i:i+2]
+        lines.append('<div align="center">')
+        lines.append("  " + "  ".join(row))
+        lines.append('</div>')
     return "\n".join(lines)
 
 def inject(content, marker, replacement):
+    """替换两个标记之间的内容"""
     pattern = rf"(<!-- {marker}_START -->).*?(<!-- {marker}_END -->)"
     return re.sub(pattern, rf"\1\n{replacement}\n\2", content, flags=re.DOTALL)
 
 def main():
     print(f"Fetching repos for {USERNAME}...")
     repos = fetch_all_repos()
-    print(f"  {len(repos)} repos found.")
+    print(f"  Found {len(repos)} repos.")
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
     content = inject(content, "LANG_BADGES", build_lang_badges(repos))
-    content = inject(content, "REPO_BADGES", build_repo_badges(repos))
+    content = inject(content, "REPO_CARDS", build_repo_cards(repos))
+
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     content = content.replace("<!-- LAST_UPDATED -->", now)
 
