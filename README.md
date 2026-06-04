@@ -24,19 +24,7 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=2228293026&theme=midnight-purple&hide_border=true&background=0d0d18&stroke=2d1b69&ring=c084fc&fire=f59e0b&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=6b7280)](https://git.io/streak-stats)
 
-# 🏆ㅣRepositories
-<div align="center">
-
-[![Il2Cpp_Dumper](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=Il2Cpp_Dumper&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/Il2Cpp_Dumper)
-[![BaseMacro](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=BaseMacro&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/BaseMacro)
-
-[![JipperKeyViewer](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=JipperKeyViewer&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/JipperKeyViewer)
-[![TemplateModMenu](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=TemplateModMenu&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/TemplateModMenu)
-
-[![ShowBPM-Fix](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=ShowBPM-Fix&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/ShowBPM-Fix)
-[![AdofaiTweaks](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=AdofaiTweaks&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/AdofaiTweaks)
-
-</div>
+[![Star History Chart](https://api.star-history.com/svg?repos=2228293026/Il2Cpp_Dumper,2228293026/BaseMacro,2228293026/JipperKeyViewer,2228293026/TemplateModMenu,2228293026/ShowBPM-Fix,2228293026/AdofaiTweaks&type=Date&theme=dark)](https://github.com/2228293026?tab=repositories)
 
 # 🤝ㅣOrganization
 [![adofaiex](https://img.shields.io/badge/%40adofaiex-Member-c084fc?style=for-the-badge&logo=github&logoColor=white&labelColor=1a0533)](https://github.com/adofaiex)
