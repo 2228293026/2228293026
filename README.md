@@ -25,36 +25,18 @@
 [![GitHub Streak](https://streak-stats.demolab.com?user=2228293026&theme=midnight-purple&hide_border=true&background=0d0d18&stroke=2d1b69&ring=c084fc&fire=f59e0b&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=6b7280)](https://git.io/streak-stats)
 
 # 🏆ㅣRepositories
-<!-- REPO_BADGES_START -->
-[![Il2Cpp_Dumper](https://img.shields.io/badge/Il2Cpp__Dumper-⭐%2010-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/Il2Cpp_Dumper)
-[![BaseMacro](https://img.shields.io/badge/BaseMacro-⭐%206-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/BaseMacro)
-[![JipperKeyViewer](https://img.shields.io/badge/JipperKeyViewer-⭐%205-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/JipperKeyViewer)
-[![TemplateModMenu](https://img.shields.io/badge/TemplateModMenu-⭐%205-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/TemplateModMenu)
-[![ShowBPM-Fix](https://img.shields.io/badge/ShowBPM--Fix-⭐%204-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/ShowBPM-Fix)
-[![AdofaiTweaks](https://img.shields.io/badge/AdofaiTweaks-⭐%203-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/AdofaiTweaks)
-[![ConvertToOld](https://img.shields.io/badge/ConvertToOld-⭐%203-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/ConvertToOld)
-[![ADOFAI_Mobile_Android_Hook](https://img.shields.io/badge/ADOFAI__Mobile__Android__Hook-⭐%202-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/ADOFAI_Mobile_Android_Hook)
-[![ADOFAI-MOBILE-MODS-Open-Level-](https://img.shields.io/badge/ADOFAI--MOBILE--MODS--Open--Level---⭐%201-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/ADOFAI-MOBILE-MODS-Open-Level-)
-[![ADOFAI_MOBILE_MODS](https://img.shields.io/badge/ADOFAI__MOBILE__MODS-⭐%201-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/ADOFAI_MOBILE_MODS)
-[![InputSystem](https://img.shields.io/badge/InputSystem-⭐%201-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/InputSystem)
-[![JipperOverlayer](https://img.shields.io/badge/JipperOverlayer-⭐%201-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/JipperOverlayer)
-[![A-Dance-of-Fire-and-Ice-Mobile---Load-Custom-Level](https://img.shields.io/badge/A--Dance--of--Fire--and--Ice--Mobile------Load--Custom--Level-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/A-Dance-of-Fire-and-Ice-Mobile---Load-Custom-Level)
-[![Autoplay-Color-Change](https://img.shields.io/badge/Autoplay--Color--Change-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/Autoplay-Color-Change)
-[![AutoplayHit](https://img.shields.io/badge/AutoplayHit-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/AutoplayHit)
-[![DifficultyUIMode](https://img.shields.io/badge/DifficultyUIMode-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/DifficultyUIMode)
-[![EditorToCustomWorld](https://img.shields.io/badge/EditorToCustomWorld-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/EditorToCustomWorld)
-[![HideContent](https://img.shields.io/badge/HideContent-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/HideContent)
-[![Outer-Swirl](https://img.shields.io/badge/Outer--Swirl-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/Outer-Swirl)
-[![Remove-Effects](https://img.shields.io/badge/Remove--Effects-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/Remove-Effects)
-[![Sarcary](https://img.shields.io/badge/Sarcary-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/Sarcary)
-[![Snowflake-Making](https://img.shields.io/badge/Snowflake--Making-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/Snowflake-Making)
-[![Uniformspeed](https://img.shields.io/badge/Uniformspeed-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/Uniformspeed)
-[![YoonKeyViewer](https://img.shields.io/badge/YoonKeyViewer-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/YoonKeyViewer)
-[![audio-to-adofai](https://img.shields.io/badge/audio--to--adofai-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/audio-to-adofai)
-[![chinese-chess](https://img.shields.io/badge/chinese--chess-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/chinese-chess)
-[![claude-code](https://img.shields.io/badge/claude--code-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/claude-code)
-[![claw-code](https://img.shields.io/badge/claw--code-⭐%200-2d1b69?style=for-the-badge&labelColor=1a0533&color=2d1b69)](https://github.com/2228293026/claw-code)
-<!-- REPO_BADGES_END -->
+<div align="center">
+
+[![Il2Cpp_Dumper](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=Il2Cpp_Dumper&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/Il2Cpp_Dumper)
+[![BaseMacro](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=BaseMacro&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/BaseMacro)
+
+[![JipperKeyViewer](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=JipperKeyViewer&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/JipperKeyViewer)
+[![TemplateModMenu](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=TemplateModMenu&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/TemplateModMenu)
+
+[![ShowBPM-Fix](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=ShowBPM-Fix&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/ShowBPM-Fix)
+[![AdofaiTweaks](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=AdofaiTweaks&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&icon_color=a78bfa&text_color=e2d9f3)](https://github.com/2228293026/AdofaiTweaks)
+
+</div>
 
 # 🤝ㅣOrganization
 [![adofaiex](https://img.shields.io/badge/%40adofaiex-Member-c084fc?style=for-the-badge&logo=github&logoColor=white&labelColor=1a0533)](https://github.com/adofaiex)
