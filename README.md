@@ -4,6 +4,15 @@ ADOFAI Mod & Tool Author · Member of [@adofaiex](https://github.com/adofaiex)
 
 ---
 
+### 👋 About Me
+
+- 🎮 专注于 **ADOFAI**(节奏地牢)相关 Mod 与开发工具
+- 🔧 喜欢造轮子,写一些能提升 Mod 开发效率的小工具
+- 🤝 [@adofaiex](https://github.com/adofaiex) 组织成员
+- 📫 欢迎交流合作
+
+---
+
 ### 🛠 IDE & Tools
 
 <div align="center">
@@ -37,7 +46,7 @@ ADOFAI Mod & Tool Author · Member of [@adofaiex](https://github.com/adofaiex)
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/2228293026/2228293026/master/github-metrics.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/2228293026/2228293026/master/github-metrics.svg" width="65%"/>
 
 </div>
 
