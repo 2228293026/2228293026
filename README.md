@@ -24,7 +24,7 @@ ADOFAI Mod & Tool Author · Member of [@adofaiex](https://github.com/adofaiex)
 
 ### 📈 Metrics
 
-<table>
+<table width="100%">
   <tr>
     <td align="center" valign="top" width="50%">
       <img width="100%" src="https://raw.githubusercontent.com/2228293026/2228293026/master/metrics-left.svg" />
