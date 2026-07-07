@@ -18,15 +18,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 左栏:活跃度 + 提交习惯
+      # 左栏:活跃度
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics-left.svg
           template: classic
           base: header, activity, community
-          plugin_habits: yes
-          plugin_habits_charts_type: bar
           config_timezone: Asia/Shanghai
 
       # 右栏:语言占比 + 仓库 + star
