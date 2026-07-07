@@ -11,6 +11,7 @@ on:
     branches: ["master", "main"]
 
 jobs:
+jobs:
   github-metrics:
     runs-on: ubuntu-latest
     environment:
@@ -18,32 +19,28 @@ jobs:
     permissions:
       contents: write
     steps:
+      # 左栏:活跃度 + 提交习惯
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics.svg
-
-          # ===== 基础信息 =====
+          filename: metrics-left.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community
+          plugin_habits: yes
+          plugin_habits_charts_type: bar
+          config_timezone: Asia/Shanghai
 
-          # ===== 常用插件 =====
+      # 右栏:语言占比 + 仓库 + star
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics-right.svg
+          template: classic
+          base: repositories, metadata
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_limit: 8
-
-          plugin_habits: yes
-          plugin_habits_charts_type: bar
-
           plugin_stars: yes
           plugin_stars_limit: 4
-
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-
-          plugin_introduction: yes
-          plugin_introduction_title: yes
-
-          # ===== 外观 =====
           config_timezone: Asia/Shanghai
