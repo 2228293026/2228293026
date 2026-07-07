@@ -35,12 +35,6 @@ ADOFAI Mod & Tool Author · Member of [@adofaiex](https://github.com/adofaiex)
   </tr>
 </table>
 
-<div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/2228293026/2228293026/master/metrics-calendar.svg" />
-
-</div>
-
 ---
 
 ### 🤝 Organization
