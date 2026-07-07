@@ -18,7 +18,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 左栏:活跃度 + 代码增删行数
+      # 左栏:活跃度 + 代码增删行数 + 贡献日历
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -27,6 +27,8 @@ jobs:
           base: header, activity, community
           plugin_lines: yes
           plugin_lines_sections: base
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
           config_timezone: Asia/Shanghai
 
       # 右栏:语言占比 + 仓库 + star + 开源协议分布
@@ -44,14 +46,4 @@ jobs:
           plugin_stars_limit: 4
           plugin_licenses: yes
           plugin_licenses_legal: no
-          config_timezone: Asia/Shanghai
-
-      # 底部通栏:贡献日历(半年)
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics-calendar.svg
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
           config_timezone: Asia/Shanghai
