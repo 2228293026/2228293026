@@ -35,11 +35,16 @@ ADOFAI Mod & Tool Author · Member of [@adofaiex](https://github.com/adofaiex)
 
 ### 📈 Metrics
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/2228293026/2228293026/master/github-metrics.svg" width="50%"/>
-
-</div>
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <img width="100%" src="https://raw.githubusercontent.com/2228293026/2228293026/master/metrics-left.svg" />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <img width="100%" src="https://raw.githubusercontent.com/2228293026/2228293026/master/metrics-right.svg" />
+    </td>
+  </tr>
+</table>
 
 ---
 
