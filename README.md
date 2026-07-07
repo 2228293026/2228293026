@@ -1,12 +1,6 @@
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a0533,100:2d1b69&height=180&section=header&text=HitMargin&fontSize=70&fontColor=c084fc&fontAlignY=38&desc=Rhythm%20Game%20%7C%20Mod%20Developer&descColor=a78bfa&descAlignY=58&animation=fadeIn" width="100%"/>
-</div>
+# HitMargin
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=C084FC&center=true&vCenter=true&width=600&lines=ADOFAI+Mod+%26+Tool+Author;Building+tools+for+rhythm+games;Member+of+%40adofaiex)](https://git.io/typing-svg)
-
-</div>
+ADOFAI Mod & Tool Author · Member of [@adofaiex](https://github.com/adofaiex)
 
 ---
 
@@ -39,15 +33,11 @@
 
 </div>
 
-### ⭐ Featured Projects
+### 📈 Metrics
 
 <div align="center">
 
-[![Il2Cpp_Dumper](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=Il2Cpp_Dumper&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&icon_color=a78bfa)](https://github.com/2228293026/Il2Cpp_Dumper)
-[![AdofaiTweaks](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=AdofaiTweaks&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&icon_color=a78bfa)](https://github.com/2228293026/AdofaiTweaks)
-
-[![TemplateModMenu](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=TemplateModMenu&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&icon_color=a78bfa)](https://github.com/2228293026/TemplateModMenu)
-[![BaseMacro](https://github-readme-stats-one-bice.vercel.app/api/pin/?username=2228293026&repo=BaseMacro&theme=midnight-purple&hide_border=true&bg_color=0d0d18&title_color=c084fc&text_color=e2d9f3&icon_color=a78bfa)](https://github.com/2228293026/BaseMacro)
+<img src="https://raw.githubusercontent.com/2228293026/2228293026/master/github-metrics.svg" width="100%"/>
 
 </div>
 
