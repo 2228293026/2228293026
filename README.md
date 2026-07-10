@@ -1,6 +1,6 @@
 # HitMargin
 
-ADOFAI Mod & Tool Author · Member of [@adofaiex](https://github.com/adofaiex) · Owner of [@HitMargin](https://github.com/HitMargin) 
+ADOFAI Mod & Tool Author · Owner of [@adofaiex](https://github.com/adofaiex) · Owner of [@HitMargin](https://github.com/HitMargin) 
 
 ---
 
@@ -41,7 +41,7 @@ ADOFAI Mod & Tool Author · Member of [@adofaiex](https://github.com/adofaiex) �
 
 <div align="center">
 
-[![adofaiex](https://img.shields.io/badge/%40adofaiex-Member-c084fc?style=flat&logo=github&logoColor=white&labelColor=1a0533)](https://github.com/adofaiex)
+[![adofaiex](https://img.shields.io/badge/%40adofaiex-Owner-c084fc?style=flat&logo=github&logoColor=white&labelColor=1a0533)](https://github.com/adofaiex)
 
 </div>
 
