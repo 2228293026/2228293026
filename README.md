@@ -2,7 +2,7 @@
 
 ADOFAI Mod & Tool Author · Owner of [@adofaiex](https://github.com/adofaiex) · Owner of [@HitMargin](https://github.com/HitMargin) 
 
-Check out my other repositories on HitMargin
+Check out my other repositories on [HitMargin](https://github.com/HitMargin) 
 
 ---
 
