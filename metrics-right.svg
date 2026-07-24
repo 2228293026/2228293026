@@ -87,9 +87,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="451.4593875875271" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="451.4593875875271" y="0" width="8.197906797205288" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="459.6572943847324" y="0" width="0.3427056152676438" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="451.46678540779266" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="451.46678540779266" y="0" width="8.190805826207994" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="459.6575912340007" y="0" width="0.34240876599930925" height="8" fill="#012456"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -129,7 +129,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>2228293026/JipperKeyViewer</span>
-                                        <span>starred 14 days ago</span>
+                                        <span>starred 15 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Jipper Key Viewer</div>
@@ -182,7 +182,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>StArraySharp/StArray.ModManager</span>
-                                        <span>starred 27 days ago</span>
+                                        <span>starred 28 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A mod loader designed for Android Unity games compiled with il2cpp, supporting the creation of mods written in C#</div>
@@ -332,7 +332,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 23 Jul 2026, 10:46:31 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 24 Jul 2026, 10:42:30 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
