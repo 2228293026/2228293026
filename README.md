@@ -24,6 +24,8 @@ Check out my other repositories on [HitMargin](https://github.com/HitMargin)
 
 </div>
 
+[![HitMargin's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=2228293026&theme=github-compact)](https://github.com/2228293026)
+
 ### 📈 Metrics
 
 <table width="100%">
