@@ -87,14 +87,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="228.03259279388925" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="228.03259279388925" y="0" width="117.00465057613006" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="345.0372433700193" y="0" width="105.71479428192957" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="450.75203765194885" y="0" width="6.474561360218061" height="8" fill="#222c37"/>
-                    <rect mask="url(#languages-bar)" x="457.2265990121669" y="0" width="2.4996171559057645" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="459.72621616807265" y="0" width="0.21903924453793205" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="459.94525541261055" y="0" width="0.03178717977447888" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="459.97704259238503" y="0" width="0.022957407614901417" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="227.70751376148365" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="227.70751376148365" y="0" width="117.49361838088201" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="345.2011321423657" y="0" width="105.56408923308075" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="450.76522137544646" y="0" width="6.465331345699336" height="8" fill="#222c37"/>
+                    <rect mask="url(#languages-bar)" x="457.2305527211458" y="0" width="2.4960537480767764" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="459.72660646922253" y="0" width="0.21872698625589954" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="459.9453334554784" y="0" width="0.03174186456090619" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="459.9770753200393" y="0" width="0.02292467996065447" height="8" fill="#89e051"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -217,7 +217,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>xbodwf/astrbot_plugin_chatcore</span>
-                                        <span>starred 15 days ago</span>
+                                        <span>starred 16 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">An extra chatcore for AstrBot</div>
@@ -361,7 +361,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 16 Aug 2026, 22:22:30 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 17 Aug 2026, 09:16:49 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
