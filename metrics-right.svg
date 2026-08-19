@@ -87,14 +87,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="226.4043968955223" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="226.4043968955223" y="0" width="119.4123354747102" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="345.8167323702325" y="0" width="104.95997063002241" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="450.7767030002549" y="0" width="6.4283317659251065" height="8" fill="#222c37"/>
-                    <rect mask="url(#languages-bar)" x="457.20503476617995" y="0" width="2.4817694160240715" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="459.686804182204" y="0" width="0.258842117128295" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="459.9456462993323" y="0" width="0.03156021329089274" height="8" fill="#427819"/>
-                    <rect mask="url(#languages-bar)" x="459.9772065126232" y="0" width="0.022793487376755867" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="225.3911737966921" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="225.3911737966921" y="0" width="120.93656068237215" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="346.3277344790642" y="0" width="104.4902453589891" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="450.8179798380533" y="0" width="6.399563180502337" height="8" fill="#222c37"/>
+                    <rect mask="url(#languages-bar)" x="457.21754301855566" y="0" width="2.4706628026686497" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="459.6882058212243" y="0" width="0.25768372614463614" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="459.945889547369" y="0" width="0.031418972495445216" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="459.97730851986444" y="0" width="0.022691480135599323" height="8" fill="#89e051"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -164,7 +164,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>KonghaYao/peri</span>
-                                        <span>starred 13 days ago</span>
+                                        <span>starred 14 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">14MB ACP-Rust Agent, Claude Code Plugin compatible, Dynamic Workflow, Goal, Artifacts, Free Web Search,   full feature and better support!</div>
@@ -185,7 +185,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                                         </svg>
-                                        152
+                                        153
                                     </div>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -204,7 +204,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                                         </svg>
-                                        65
+                                        67
                                     </div>
                                 </div>
                             </section>
@@ -217,7 +217,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>xbodwf/astrbot_plugin_chatcore</span>
-                                        <span>starred 17 days ago</span>
+                                        <span>starred 18 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">An extra chatcore for AstrBot</div>
@@ -361,7 +361,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 18 Aug 2026, 09:14:00 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 19 Aug 2026, 09:15:13 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
