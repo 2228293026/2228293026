@@ -22,6 +22,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_PAT || github.token }}
           filename: metrics-left.svg
           template: classic
           base: header, activity, community
@@ -35,6 +36,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_PAT || github.token }}
           filename: metrics-right.svg
           template: classic
           base: repositories, metadata
