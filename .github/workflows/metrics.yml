@@ -38,7 +38,6 @@ jobs:
           template: classic
           base: header, activity, community
           plugin_lines: yes
-          plugin_lines_sections: base
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           config_timezone: Asia/Shanghai
