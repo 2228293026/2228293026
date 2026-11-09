@@ -28,7 +28,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 左栏:活跃度 + 代码增删行数 + 贡献日历
+      # 左栏:活跃度 + 贡献日历(已移除 lines 插件)
       - name: Generate Metrics (left)
         uses: lowlighter/metrics@latest
         with:
@@ -37,7 +37,6 @@ jobs:
           output_action: none
           template: classic
           base: header, activity, community
-          plugin_lines: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           config_timezone: Asia/Shanghai
