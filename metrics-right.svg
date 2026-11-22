@@ -87,14 +87,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="200.59096905598744" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="200.59096905598744" y="0" width="149.200436974552" height="8" fill="#7355dd"/>
-                    <rect mask="url(#languages-bar)" x="349.7914060305394" y="0" width="98.64010950629215" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="448.43151553683157" y="0" width="5.682663763934642" height="8" fill="#222c37"/>
-                    <rect mask="url(#languages-bar)" x="454.1141793007662" y="0" width="2.4846049271684243" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="456.59878422793463" y="0" width="2.198340770854554" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="458.7971249987892" y="0" width="1.1708488907798333" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="459.967973889569" y="0" width="0.0320261104309838" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="200.34960926621028" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="200.34960926621028" y="0" width="149.0209125110514" height="8" fill="#7355dd"/>
+                    <rect mask="url(#languages-bar)" x="349.3705217772617" y="0" width="98.52142143072186" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="447.8919432079835" y="0" width="5.67582613541182" height="8" fill="#222c37"/>
+                    <rect mask="url(#languages-bar)" x="453.5677693433953" y="0" width="2.481615342314615" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="456.04938468571" y="0" width="2.1956956315005285" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="458.24508031721047" y="0" width="1.7229321075693267" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="459.96801242477983" y="0" width="0.03198757522016459" height="8" fill="#427819"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -164,7 +164,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>PrismMods/Quartz</span>
-                                        <span>starred 14 days ago</span>
+                                        <span>starred 15 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">An all in one ADOFAI mod</div>
@@ -217,7 +217,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>pding4569/StutterFix</span>
-                                        <span>starred 19 days ago</span>
+                                        <span>starred 20 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">얼불춤(ADOFAI) 고사양 맵의 프레임 멈춤을 줄이는 Unity Mod Manager 모드</div>
@@ -357,7 +357,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
                                         </svg>
-                                        577
+                                        591
                                     </div>
                                 </div>
                             </section>
@@ -367,7 +367,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 21 Nov 2026, 12:44:30 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0-beta</span>
+                <span>Last updated 22 Nov 2026, 12:02:16 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
